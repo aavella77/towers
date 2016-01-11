@@ -7,4 +7,4 @@ Application written in Java for Android phones.  It communicates with Facebook a
 
 ![Towers rules](images/rules.png)
 
-[Rules!](images/Rafa.doc)
+[Rules](images/Rafa.htm)
