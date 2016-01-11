@@ -5,6 +5,8 @@
 ## Introduction
 Application written in Java for Android phones.  It communicates with Facebook and it shows adds from Ad Mob.
 
+[Video:](https://youtu.be/avdYdfm_cdo)
+
 ![Towers rules](images/rules.png)
 
 ![Level1](images/level1.png)
