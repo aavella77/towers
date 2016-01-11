@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:gravity="center_horizontal"
+	android:layout_width="fill_parent" android:orientation="vertical">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Score"
+		android:textSize="30sp" android:gravity="center_horizontal"
+		android:padding="20dp"></TextView>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textSize="50sp" android:id="@+id/scoreTextResult"
+		android:text="Score"></TextView>
+	
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textSize="15sp" android:id="@+id/txt"
+		android:text="Post your score to Facebook"></TextView>	
+		
+    <com.moongoal.towersfacebook.LoginButton
+        android:id="@+id/login"
+        android:src="@drawable/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        />
+
+    <Button android:id="@+id/playAgainButton" 
+        android:text="@string/playAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:paddingRight="20sp" 
+        android:paddingLeft="20sp"
+        android:layout_margin="20sp" 
+		/> 
+     
+    <Button android:id="@+id/postButton" 
+        android:text="@string/post"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:paddingRight="20sp" 
+        android:paddingLeft="20sp"
+        android:layout_margin="20sp" 
+		/>   
+		
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:myapp="http://schemas.android.com/apk/res/com.moongoal.towersfacebook"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+<com.admob.android.ads.AdView
+android:id="@+id/ad"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+myapp:backgroundColor="#000000"
+myapp:primaryTextColor="#FFFFFF"
+myapp:secondaryTextColor="#CCCCCC"
+/>
+<com.admob.android.ads.AdView
+android:id="@+id/ad1"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+myapp:backgroundColor="#000000"
+myapp:primaryTextColor="#FFFFFF"
+myapp:secondaryTextColor="#CCCCCC"
+/>
+<com.admob.android.ads.AdView
+android:id="@+id/ad2"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+myapp:backgroundColor="#000000"
+myapp:primaryTextColor="#FFFFFF"
+myapp:secondaryTextColor="#CCCCCC"
+/>
+<com.admob.android.ads.AdView
+android:id="@+id/ad3"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+myapp:backgroundColor="#000000"
+myapp:primaryTextColor="#FFFFFF"
+myapp:secondaryTextColor="#CCCCCC"
+/>
+
+
+
+</LinearLayout>
+
+       
+</LinearLayout>

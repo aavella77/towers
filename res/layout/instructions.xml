@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:gravity="center_horizontal"
+	android:layout_width="fill_parent" android:orientation="vertical">
+	<TextView android:id="@+id/HowtoPlayTitle" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@+string/howToPlay"
+		android:textSize="40sp" android:gravity="center_horizontal"></TextView>
+	<TextView android:id="@+id/instructions" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@+string/completeInstructions"
+		android:textSize="15sp" android:gravity="center_horizontal"></TextView>
+		
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:myapp="http://schemas.android.com/apk/res/com.moongoal.towersfacebook"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+<com.admob.android.ads.AdView
+android:id="@+id/ad4"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+myapp:backgroundColor="#000000"
+myapp:primaryTextColor="#FFFFFF"
+myapp:secondaryTextColor="#CCCCCC"
+/>
+<com.admob.android.ads.AdView
+android:id="@+id/ad5"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+myapp:backgroundColor="#000000"
+myapp:primaryTextColor="#FFFFFF"
+myapp:secondaryTextColor="#CCCCCC"
+/>
+<com.admob.android.ads.AdView
+android:id="@+id/ad6"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+myapp:backgroundColor="#000000"
+myapp:primaryTextColor="#FFFFFF"
+myapp:secondaryTextColor="#CCCCCC"
+/>
+<com.admob.android.ads.AdView
+android:id="@+id/ad7"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+myapp:backgroundColor="#000000"
+myapp:primaryTextColor="#FFFFFF"
+myapp:secondaryTextColor="#CCCCCC"
+/>
+</LinearLayout>
+
+</LinearLayout>

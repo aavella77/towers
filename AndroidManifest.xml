@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.moongoal.towersfacebook"
+      android:versionCode="5"
+      android:versionName="5">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".TowersFacebook"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".NorthView">
+        </activity>
+
+        <activity android:name=".SouthView">
+        </activity>
+
+        <activity android:name=".EastView">
+        </activity>
+
+        <activity android:name=".WestView">
+        </activity>
+        
+        <activity android:name=".ScoreResults">
+        </activity>
+        
+        <activity android:name=".Instructions">
+        </activity>
+        
+    
+        
+        
+        <!-- The application's publisher ID assigned by AdMob -->
+<meta-data android:value="a14d112fc0b5cfe" android:name="ADMOB_PUBLISHER_ID" />
+
+<!-- AdMobActivity definition -->
+<activity android:name="com.admob.android.ads.AdMobActivity"
+android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+android:configChanges="orientation|keyboard|keyboardHidden" />
+
+<!-- Track Market installs -->
+<receiver android:name="com.admob.android.ads.analytics.InstallReceiver"
+android:exported="true">
+
+<intent-filter>
+<action android:name="com.android.vending.INSTALL_REFERRER" />
+
+</intent-filter>
+</receiver>
+        
+    </application>
+    <uses-sdk android:minSdkVersion="8" />
+    
+    <!-- AdMob SDK requires Internet permission -->
+<uses-permission android:name="android.permission.INTERNET" />
+
+</manifest> 

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/esquina_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp" android:background="#000000" android:textColor="#000000"/>
+        
+            <Button
+                android:id="@+id/resultado_zero_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:padding="15sp" android:background="#000000" android:textColor="#FFFFFF"/>
+        
+            <Button
+                android:id="@+id/resultado_zero_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:padding="15sp" android:background="#000000" android:textColor="#FFFFFF"/>
+                
+              <Button
+                android:id="@+id/resultado_zero_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:padding="15sp" android:background="#000000" android:textColor="#FFFFFF"/>
+
+              <Button
+                android:id="@+id/resultado_zero_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:padding="15sp" android:background="#000000" android:textColor="#FFFFFF"/>
+                
+                <Button
+                android:id="@+id/esquina_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Score" android:padding="15sp" android:background="#FF0000"/>
+                
+                
+        </LinearLayout>
+
+    
+            
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/resultado_one_zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:padding="15sp" android:background="#000000" android:textColor="#FFFFFF"/>
+        
+            <Button
+                android:id="@+id/one_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp"/>
+        
+            <Button
+                android:id="@+id/one_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp"/>
+                
+              <Button
+                android:id="@+id/one_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp"/>
+
+              <Button
+                android:id="@+id/one_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp"/>
+                
+                <Button
+                android:id="@+id/resultado_one_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:padding="15sp" android:background="#000000" android:textColor="#FFFFFF"/>
+                
+                
+        </LinearLayout>
+        
+
+            
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/resultado_two_zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:padding="15sp" android:background="#000000" android:textColor="#FFFFFF"/>
+        
+            <Button
+                android:id="@+id/two_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp"/>
+        
+            <Button
+                android:id="@+id/two_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp"/>
+                
+              <Button
+                android:id="@+id/two_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp"/>
+
+              <Button
+                android:id="@+id/two_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp"/>
+                
+              <Button
+                android:id="@+id/resultado_two_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:padding="15sp" android:background="#000000" android:textColor="#FFFFFF"/>
+                
+                
+        </LinearLayout>
+        
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        
+            <Button
+                android:id="@+id/resultado_three_zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:padding="15sp" android:background="#000000" android:textColor="#FFFFFF"/>
+        
+            <Button
+                android:id="@+id/three_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp"/>
+        
+            <Button
+                android:id="@+id/three_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp"/>
+                
+              <Button
+                android:id="@+id/three_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp"/>
+
+              <Button
+                android:id="@+id/three_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp"/>
+              
+              <Button
+                android:id="@+id/resultado_three_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:padding="15sp" android:background="#000000" android:textColor="#FFFFFF"/>
+                
+                
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        
+            <Button
+                android:id="@+id/resultado_four_zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:padding="15sp" android:background="#000000" android:textColor="#FFFFFF"/>
+        
+            <Button
+                android:id="@+id/four_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp"/>
+        
+            <Button
+                android:id="@+id/four_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp"/>
+                
+              <Button
+                android:id="@+id/four_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp"/>
+
+              <Button
+                android:id="@+id/four_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp"/>
+        
+             <Button
+                android:id="@+id/resultado_four_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:padding="15sp" android:background="#000000" android:textColor="#FFFFFF"/>
+                
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/esquina_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp" android:background="#000000" android:textColor="#000000"/>
+        
+            <Button
+                android:id="@+id/resultado_six_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:padding="15sp" android:background="#000000" android:textColor="#FFFFFF"/>
+        
+            <Button
+                android:id="@+id/resultado_six_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:padding="15sp" android:background="#000000" android:textColor="#FFFFFF"/>
+                
+              <Button
+                android:id="@+id/resultado_six_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:padding="15sp" android:background="#000000" android:textColor="#FFFFFF"/>
+
+              <Button
+                android:id="@+id/resultado_six_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" android:padding="15sp" android:background="#000000" android:textColor="#FFFFFF"/>
+                
+                <Button 
+                android:id="@+id/esquina_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" android:padding="15sp" android:background="#000000" android:textColor="#000000"/>
+                
+                
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/options" />    
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+                    
+            <Button
+                android:id="@+id/tower_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="#FFFFFF00"
+                android:padding="15sp"/>
+        
+            <Button
+                android:id="@+id/tower_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textColor="#FF7E00"
+                android:padding="15sp"/>
+                             
+                
+              <Button
+                android:id="@+id/tower_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFF0000"
+                android:text="3" android:padding="15sp"/>
+
+              <Button
+                android:id="@+id/tower_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FF00FF00"
+                android:text="4" android:padding="15sp"/>
+                
+              <Button
+                android:id="@+id/howToPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@+string/howToPlay" android:padding="15sp"/>
+                
+        </LinearLayout>
+        
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<Button android:text="North" android:id="@+id/north" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="South" android:id="@+id/south" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="West" android:id="@+id/west" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="East" android:id="@+id/east" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+

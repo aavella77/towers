@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Towers!</string>
+    <string name="app_name">Towers</string>
+<string name="forward_target">next window</string>
+<string name="north_view_title">North View</string>
+<string name="east_view_title">East View</string>
+<string name="west_view_title">West View</string>
+<string name="south_view_title">South View</string>
+
+    <string name="skeleton_app">Skeleton App</string>
+    <string name="back">Back</string>
+    <string name="clear">Clear</string>
+
+    <!-- This is a complex string containing style runs. -->
+    <string name="main_label">Hello <u>th<ignore>e</ignore>re</u>, <i>you</i> <b>Activity</b>!</string>
+<string name="status_bar_notifications_icons_only">Icons Only</string>
+<string name="status_bar_notifications_happy">2</string>
+<string name="status_bar_notifications_ok">3</string>
+<string name="status_bar_notifications_sad">4</string>
+<string name="one">1</string>
+<string name="two">2</string>
+<string name="three">3</string>
+<string name="four">4</string>    
+<string name="playAgain">Play Again</string>
+<string name="howToPlay">How to Play</string>
+<string name="options">Select a tower and click on the board</string>
+<string name="Score">Score</string>
+<string name="completeInstructions">The objective of the game is to set towers on the grid so that the challenge, which is displayed in the outer part of the board, is met. The numbers of the challenge tell you how many towers you should be able to see from each point of view (North, South, East and West).  You have 4 green towers (4 stories), 4 red towers (3 stories), 4 orange towers (2 stories) and 4 yellow towers (1 story).  You can have a current view of the game by pressing the buttons at the bottom of the screen.   For example a 2-story tower located behind a 3-story tower cannot be seen from that view.</string>
+<string name="post">Post to Facebook</string>
+</resources>

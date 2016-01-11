@@ -1,0 +1,1 @@
+12-21 23:37:01.404: INFO/AdMobSDK(11152): To get test ads on this device use AdManager.setTestDevices( new String[] { "24D0C878854B54A8DD2DE80CA1540DC1" } )
