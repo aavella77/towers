@@ -1,1 +1,1 @@
-# towers
+![Towers rules](images/rules.png)
