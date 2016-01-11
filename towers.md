@@ -1,1 +1,1 @@
-![alt tag](https://github.com/aavella77/towers/master/images/rules.png)
+![alt tag](https://github.com/aavella77/towers/tree/master/images/rules.png)
