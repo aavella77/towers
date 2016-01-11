@@ -7,6 +7,6 @@ Application written in Java for Android phones.  It communicates with Facebook a
 
 ![Towers rules](images/rules.png)
 
-[Level1](images/level1.png)
-[Level2](images/level2.png)
-[Level3](images/level3.png)
+![Level1](images/level1.png)
+![Level2](images/level2.png)
+![Level3](images/level3.png)
